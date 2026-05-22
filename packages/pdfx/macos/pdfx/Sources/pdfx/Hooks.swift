@@ -1,5 +1,6 @@
 #if os(iOS)
 import UIKit
+import CoreGraphics
 
 extension UIColor {
     convenience init(hexString: String) {
@@ -22,6 +23,8 @@ extension UIColor {
 }
 
 #elseif os(macOS)
+import Cocoa
+import CoreGraphics
 
 extension NSColor {
     convenience init(hexString: String) {

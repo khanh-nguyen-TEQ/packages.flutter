@@ -3,6 +3,7 @@ import UIKit
 #elseif os(macOS)
 import Cocoa
 #endif
+import CoreGraphics
 
 class Document {
     let id: String
